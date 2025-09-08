@@ -1,4 +1,5 @@
+streamlit
 langchain
 scikit-learn
-nltk
-transformers
+openai
+python-dotenv
