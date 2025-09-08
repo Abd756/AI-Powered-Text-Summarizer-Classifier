@@ -16,6 +16,13 @@ texts = [
     "I'm interested in learning more about the advanced features of your latest SmartWidget model. Specifically, I'm curious about how the AI optimization works and whether it can be customized to fit my daily workflow. Any detailed guides or documentation would be appreciated.",
     "Can you tell me more about the features of your latest product?",
     "What is included in the warranty for SmartWidget and how do I claim it?",
+    # Added: Pricing, plans, discounts, subscriptions
+    "Can you provide details on the features included in each plan and any available discounts for long-term subscriptions?",
+    "I am interested in learning more about your enterprise pricing options. What are the differences between the standard and premium plans?",
+    "Do you offer any special rates or discounts for annual subscriptions?",
+    "What is the cost breakdown for your monthly and yearly plans, and what features are included in each?",
+    "Are there any promotional offers available for new customers signing up for your service?",
+    "How do I upgrade my subscription to access more features, and what is the process for changing plans?",
     # Longer and realistic Service Info examples
     "Our company is considering using your products for our office automation needs. Before making a decision, we would like to know more about the on-site repair services you offer, including response times, costs, and the types of issues your technicians can handle.",
     "I've been using your customer support services for a while now, and I wanted to ask about the different ways I can reach out for help. Is live chat available 24/7, and do you offer remote troubleshooting for software issues?",
@@ -48,6 +55,13 @@ labels = [
     "Other",
     "Product Info",
     # Longer and realistic Product Info labels
+    "Product Info",
+    "Product Info",
+    "Product Info",
+    "Product Info",
+    # Added: Pricing, plans, discounts, subscriptions
+    "Product Info",
+    "Product Info",
     "Product Info",
     "Product Info",
     "Product Info",
