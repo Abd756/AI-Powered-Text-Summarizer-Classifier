@@ -1,5 +1,10 @@
+
 streamlit
 langchain
+langchain-openai
 scikit-learn
 openai
 python-dotenv
+numpy
+pandas
+langchain-openai
