@@ -1,0 +1,4 @@
+langchain
+scikit-learn
+nltk
+transformers
