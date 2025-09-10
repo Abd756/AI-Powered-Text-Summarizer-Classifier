@@ -24,7 +24,10 @@ def summarize_documents(documents: List[str], api_key: str = None) -> List[str]:
     prompt = PromptTemplate(
         input_variables=["text"],
         template="""
-        Summarize the following text in 2-3 clear, concise sentences:
+        The following is a user query or statement. 
+        Summarize what the user is asking or saying in 2-3 clear, concise sentences.
+        Do NOT answer the question or provide any solutions.
+        Only restate or condense the user's input.
         {text}
         """
     )

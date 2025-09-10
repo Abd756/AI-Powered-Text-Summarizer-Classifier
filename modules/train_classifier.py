@@ -47,6 +47,54 @@ texts = [
     "I had an issue with my order last week, but your support team handled it professionally and offered a quick refund.",
     "How do I request technical support for installation issues?",
     "Is there a way to get remote assistance for software problems?"
+    # Product Info
+    "The user is asking about the features of the product.",
+    "The user wants to know the price of the product.",
+    "The user is interested in product warranty details.",
+    "The user is requesting information about product colors.",
+    "The user is asking about subscription plans and discounts.",
+    "The user wants to upgrade their product plan.",
+    "The user is inquiring about product availability.",
+    "The user likes the features of the product.",
+    "The user is asking for product recommendations.",
+    "The user wants to know the difference between standard and premium plans.",
+    "The user is interested in product specifications.",
+    "The user is asking about product compatibility with other devices.",
+    "The user wants to know about product updates and new features.",
+    "The user is asking about product return policy.",
+    "The user is interested in product reviews and ratings.",
+    # Service Info
+    "The user is asking how to contact customer support.",
+    "The user wants to know about on-site repair services.",
+    "The user is inquiring about remote assistance for technical issues.",
+    "The user is asking about live chat availability for support.",
+    "The user wants to know the process for emergency support requests.",
+    "The user had an issue with their order and received a quick refund.",
+    "The user is asking for help with installation issues.",
+    "The user wants to know how to request technical support.",
+    "The user is asking about troubleshooting steps for device problems.",
+    "The user wants to know about maintenance services for their product.",
+    "The user is inquiring about service fees for repairs.",
+    "The user is asking about warranty coverage for repairs.",
+    "The user wants to know about service response times.",
+    "The user is asking about support for software problems.",
+    "The user is interested in training sessions for new users.",
+    # Irrelevant
+    "The user is introducing themselves as Abdulah.",
+    "The user is asking for a joke.",
+    "The user wants to know the capital of Australia.",
+    "The user is just saying hello.",
+    "The user likes pizza.",
+    "The user is asking how to solve a math equation.",
+    "The user wants to know about the health benefits of green tea.",
+    "The user is planning a family vacation and needs travel advice.",
+    "The user is asking who won the cricket world cup last year.",
+    "The user is talking about the weather in Paris.",
+    "The user is describing a hiking trip in the mountains.",
+    "The user is asking for movie recommendations.",
+    "The user is talking about their favorite color.",
+    "The user is not asking about any product or service.",
+    "The user is sharing a personal story unrelated to products or services."
 ]
 labels = [
     "Product Info",   # 1
@@ -95,7 +143,21 @@ labels = [
     "Service Info",   #44
     "Service Info",   #45
     "Service Info"    #46  <-- NEW: for "Is there a way to get remote assistance...?"
+
+    # Product Info (15)
+    "Product Info", "Product Info", "Product Info", "Product Info", "Product Info",
+    "Product Info", "Product Info", "Product Info", "Product Info", "Product Info",
+    "Product Info", "Product Info", "Product Info", "Product Info", "Product Info",
+    # Service Info (15)
+    "Service Info", "Service Info", "Service Info", "Service Info", "Service Info",
+    "Service Info", "Service Info", "Service Info", "Service Info", "Service Info",
+    "Service Info", "Service Info", "Service Info", "Service Info", "Service Info",
+    # Irrelevant (15)
+    "Irrelevant", "Irrelevant", "Irrelevant", "Irrelevant", "Irrelevant",
+    "Irrelevant", "Irrelevant", "Irrelevant", "Irrelevant", "Irrelevant",
+    "Irrelevant", "Irrelevant", "Irrelevant", "Irrelevant", "Irrelevant"
 ]
+
 
 
 train_classifier(texts, labels)

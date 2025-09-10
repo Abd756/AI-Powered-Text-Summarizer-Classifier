@@ -12,6 +12,7 @@ def assistant_response(text: str) -> str:
     """
     # Summarize using LLM (abstractive)
     summary = summarize_documents([text])[0]
+    print(f"DEBUG: Summary generated: {summary}")  # <-- Add this line
     # Classify
     category = classify_text(summary, CATEGORIES)
     # Respond
